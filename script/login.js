@@ -14,7 +14,7 @@ document.getElementById('btn-login').addEventListener('click',function()
         {// 3- true: homepage
         alert('Login Success!!')
         // window.location.replace("/home.html");
-        window.location.assign("/home.html");
+        window.location.assign("./home.html");
         }
     
     // 3- false: return
